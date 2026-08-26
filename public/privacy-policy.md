@@ -1,10 +1,10 @@
-# Useful Tracker — Privacy Policy
+# Pulse — Privacy Policy
 
 **Last updated:** 2026-08-26
 
 ## What this extension does
 
-Useful Tracker is a Chrome extension that shows your current absence.io work-time status in the browser, reminds you to take legally required breaks (German ArbZG §4), and reminds you once when you cross 8 hours of work time. It calls the absence.io API on your behalf using a personal API key you provide.
+Pulse is a Chrome extension that shows your current absence.io work-time status in the browser, reminds you to take legally required breaks (German ArbZG §4), and reminds you once when you cross 8 hours of work time. It calls the absence.io API on your behalf using a personal API key you provide.
 
 ## Data collected
 
@@ -17,18 +17,18 @@ This extension collects only what is required to function. All data stays on you
 
 ## Data sharing
 
-Useful Tracker sends data only to `https://app.absence.io`, which is the absence.io REST API operated by Atoss Software AG. Useful Tracker does not transmit data to any other server, third-party analytics provider, or any other party. There is no Useful Tracker backend.
+Pulse sends data only to `https://app.absence.io`, which is the absence.io REST API operated by Atoss Software AG. Pulse does not transmit data to any other server, third-party analytics provider, or any other party. There is no Pulse backend.
 
 ## Permissions
 
-Useful Tracker requests the minimum Chrome permissions required for its function:
+Pulse requests the minimum Chrome permissions required for its function:
 
 - `storage` — to save your API key and preferences locally.
 - `alarms` — to schedule periodic background polls of absence.io.
 - `notifications` — to show clock-out and break reminders.
 - `idle` — to back off polling when your machine is idle.
 - `offscreen` — to briefly play the break-reminder chime (service workers cannot play audio directly in Manifest V3).
-- `host_permissions` for `https://app.absence.io/*` — to call the absence.io API. This is the only host Useful Tracker can communicate with.
+- `host_permissions` for `https://app.absence.io/*` — to call the absence.io API. This is the only host Pulse can communicate with.
 
 ## Data retention
 
@@ -36,7 +36,7 @@ All data is stored in your browser's local storage. You can delete it at any tim
 
 ## Open source
 
-Useful Tracker is open-source under the MIT license. Source code is available at <https://github.com/wasimjalali/useful-tracker>.
+Pulse is open-source under the MIT license. Source code is available at <https://github.com/wasimjalali/pulse>.
 
 ## Contact
 

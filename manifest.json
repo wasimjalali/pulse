@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Useful Tracker - Arbeitszeit-Begleiter für absence.io",
+  "name": "Pulse - Arbeitszeit-Begleiter für absence.io",
   "version": "1.0.0",
-  "description": "Useful Tracker: Arbeitszeit-Begleiter für absence.io. Schwebende Anzeige, Pausen- und Ausstempel-Erinnerungen.",
+  "description": "Pulse: Arbeitszeit-Begleiter für absence.io. Schwebende Anzeige, Pausen- und Ausstempel-Erinnerungen.",
   "permissions": [
     "storage",
     "alarms",

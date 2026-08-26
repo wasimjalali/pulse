@@ -1,4 +1,4 @@
-# Useful Tracker
+# Pulse
 
 **See your work hours in your browser, and never forget to clock out.**
 
@@ -41,7 +41,7 @@ Then load `dist/` as an unpacked extension at `chrome://extensions`.
 
 ## Install (prebuilt zip)
 
-Grab `pulse-1.0.0.zip` from the [Releases](https://github.com/wasimjalali/useful-tracker/releases) page. In Chrome:
+Grab `pulse-1.0.0.zip` from the [Releases](https://github.com/wasimjalali/pulse/releases) page. In Chrome:
 
 1. Unzip somewhere.
 2. Open `chrome://extensions`, enable "Developer mode".
@@ -49,7 +49,7 @@ Grab `pulse-1.0.0.zip` from the [Releases](https://github.com/wasimjalali/useful
 
 ## First-time setup
 
-1. Open the Useful Tracker popup (toolbar icon) → "Open setup page".
+1. Open the Pulse popup (toolbar icon) → "Open setup page".
 2. In absence.io, go to *User Settings → Integrations* and click **Generate API Key**.
 3. Paste the **Key Identifier** and **Key** into the setup page.
 4. Done. The toolbar badge will start tracking once you clock in (via the popup, the floating widget, or directly on app.absence.io).
