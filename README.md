@@ -1,15 +1,12 @@
-# Pulse
+# Useful Tracker
 
 **See your work hours in your browser, and never forget to clock out.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 ![Chrome Manifest V3](https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4?logo=googlechrome&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Status](https://img.shields.io/badge/status-archived-inactive)
 
 A Chrome extension for [absence.io](https://www.absence.io/) users. Shows your current work time in the browser toolbar, fires a one-time clock-out reminder after 8 hours, and nudges you to take a break (German ArbZG §4) at 5h and 5h30 of continuous work.
-
-> **Status: archived, unmaintained.** Built for an internal use case that is no longer active. Released here as a reference for anyone using absence.io who wants a browser-resident time tracker. Fork freely. No support, no roadmap, no PRs will be reviewed.
 
 Bilingual (Deutsch / English). Default language is German.
 
@@ -44,7 +41,7 @@ Then load `dist/` as an unpacked extension at `chrome://extensions`.
 
 ## Install (prebuilt zip)
 
-Grab `pulse-1.0.0.zip` from the [Releases](https://github.com/wasimjalali/pulse-absence-io/releases) page. In Chrome:
+Grab `pulse-1.0.0.zip` from the [Releases](https://github.com/wasimjalali/useful-tracker/releases) page. In Chrome:
 
 1. Unzip somewhere.
 2. Open `chrome://extensions`, enable "Developer mode".
@@ -52,9 +49,9 @@ Grab `pulse-1.0.0.zip` from the [Releases](https://github.com/wasimjalali/pulse-
 
 ## First-time setup
 
-1. Open the Pulse popup (toolbar icon) → "Open setup page".
+1. Open the Useful Tracker popup (toolbar icon) → "Open setup page".
 2. In absence.io, go to *User Settings → Integrations* and click **Generate API Key**.
-3. Paste the **Key Identifier** and **Key** into Pulse's setup page.
+3. Paste the **Key Identifier** and **Key** into the setup page.
 4. Done. The toolbar badge will start tracking once you clock in (via the popup, the floating widget, or directly on app.absence.io).
 
 ## API endpoints used
