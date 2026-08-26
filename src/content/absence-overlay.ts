@@ -1133,7 +1133,7 @@ function initOverlay(denyListedHost = false): void {
   // is never reached.
   function buildPipDocument(win: Window): void {
     const doc = win.document;
-    doc.title = 'Pulse';
+    doc.title = 'Useful Tracker';
 
     const style = doc.createElement('style');
     style.textContent = `
